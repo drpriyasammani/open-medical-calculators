@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these clinical calculator implementations or laboratory reference intervals, please cite them as below."
+title: "Nirogi Lanka Open Multilingual Clinical Calculators & Adult Laboratory Reference Dataset"
+version: "2026.11"
+date-released: 2026-11-18
+url: "https://nirogilanka.com/en/health-calculators/"
+authors:
+  - family-names: "Sammani"
+    given-names: "Priya"
+    orcid: "https://orcid.org/0009-0009-5051-1275"
+    affiliation: "Nirogi Lanka Medical Review Board"
+license: MIT
+keywords:
+  - medical calculators
+  - clinical decision support
+  - laboratory reference intervals
+  - symptom triage
