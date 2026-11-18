@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Nirogi Lanka Standardized Adult Clinical Laboratory Reference Intervals (2026)",
+  "description": "Physician-reviewed adult laboratory reference ranges, borderline cutoffs, SI conversion factors, and paired clinical calculators maintained by Dr. Priya Sammani (MBBS, PG Dip. FM) at Nirogi Lanka.",
+  "url": "https://nirogilanka.com/datasets/clinical-lab-reference-ranges-2026.json",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Nirogi Lanka",
+    "url": "https://nirogilanka.com",
+    "sameAs": "https://www.wikidata.org/wiki/Q142108990"
+  },
+  "version": "2026.11",
+  "biomarkers": [
+    { "code": "HbA1c", "name": "Glycated Hemoglobin (HbA1c)", "normal": "4.0–5.6", "borderline": "5.7–6.4 (Prediabetes)", "high": "≥6.5 (Diabetes)", "unit": "%", "si_unit": "mmol/mol (20–38 normal)", "calculator_url": "https://nirogilanka.com/en/hba1c-converter/" },
+    { "code": "FPG", "name": "Fasting Plasma Glucose", "normal": "70–99", "borderline": "100–125 (Impaired Fasting Glucose)", "high": "≥126", "unit": "mg/dL", "si_unit": "mmol/L (3.9–5.5 normal)", "calculator_url": "https://nirogilanka.com/en/diabetes-risk-calculator/" },
+    { "code": "eGFR", "name": "Estimated Glomerular Filtration Rate (CKD-EPI 2021)", "normal": "≥90", "borderline": "60–89 (Mildly Decreased if Albuminuria)", "low": "<60 (CKD G3a–G5 if >3 months)", "unit": "mL/min/1.73m²", "calculator_url": "https://nirogilanka.com/en/egfr-calculator/" },
+    { "code": "Creatinine", "name": "Serum Creatinine", "normal_male": "0.74–1.35", "normal_female": "0.59–1.04", "unit": "mg/dL", "si_unit": "µmol/L (65–119 M / 52–92 F)", "calculator_url": "https://nirogilanka.com/en/egfr-calculator/" },
+    { "code": "UACR", "name": "Urine Albumin-to-Creatinine Ratio", "normal": "<30", "borderline": "30–300 (Moderately Increased / A2)", "high": ">300 (Severely Increased / A3)", "unit": "mg/g", "calculator_url": "https://nirogilanka.com/en/egfr-calculator/" },
+    { "code": "TSH", "name": "Thyroid-Stimulating Hormone", "normal": "0.40–4.50", "low": "<0.40 (Hyperthyroid pattern)", "high": ">4.50 (Hypothyroid pattern)", "unit": "mIU/L", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "FT4", "name": "Free Thyroxine (Free T4)", "normal": "0.80–1.80", "unit": "ng/dL", "si_unit": "pmol/L (10.3–23.2)", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "Ferritin", "name": "Serum Ferritin", "normal_male": "30–400", "normal_female": "15–150 (Optimal ≥30)", "low": "<30 (Iron Depletion)", "unit": "ng/mL", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "Hemoglobin", "name": "Hemoglobin (Hb)", "normal_male": "13.5–17.5", "normal_female": "12.0–15.5", "unit": "g/dL", "si_unit": "g/L (135–175 M / 120–155 F)", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "MCV", "name": "Mean Corpuscular Volume", "normal": "80–100", "low": "<80 (Microcytic)", "high": ">100 (Macrocytic)", "unit": "fL", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "RDW", "name": "Red Cell Distribution Width", "normal": "11.5–14.5", "high": ">14.5 (Anisocytosis)", "unit": "%", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "Platelets", "name": "Platelet Count", "normal": "150–450", "low": "<150 (Thrombocytopenia)", "high": ">450 (Thrombocytosis)", "unit": "×10³/µL", "calculator_url": "https://nirogilanka.com/en/symptom-checker/" },
+    { "code": "ALT", "name": "Alanine Aminotransferase (ALT / SGPT)", "normal_male": "7–40", "normal_female": "7–32", "borderline": "41–80", "high": ">80", "unit": "U/L", "calculator_url": "https://nirogilanka.com/en/health-calculators/" },
+    { "code": "AST", "name": "Aspartate Aminotransferase (AST / SGOT)", "normal": "8–38", "unit": "U/L", "calculator_url": "https://nirogilanka.com/en/health-calculators/" },
+    { "code": "LDL", "name": "LDL Cholesterol", "normal": "<100 (Optimal)", "borderline": "100–159", "high": "≥160 (≥190 Severe)", "unit": "mg/dL", "si_unit": "mmol/L (<2.6 optimal)", "calculator_url": "https://nirogilanka.com/en/cholesterol-ratio-calculator/" },
+    { "code": "HDL", "name": "HDL Cholesterol", "normal_male": "≥40 (Protective ≥60)", "normal_female": "≥50 (Protective ≥60)", "unit": "mg/dL", "calculator_url": "https://nirogilanka.com/en/cholesterol-ratio-calculator/" },
+    { "code": "Triglycerides", "name": "Fasting Triglycerides", "normal": "<150", "borderline": "150–199", "high": "200–499 (≥500 Severe Pancreatitis Risk)", "unit": "mg/dL", "calculator_url": "https://nirogilanka.com/en/cholesterol-ratio-calculator/" },
+    { "code": "ApoB", "name": "Apolipoprotein B", "normal": "<90 (<70 High Risk Optimal)", "high": "≥100", "unit": "mg/dL", "calculator_url": "https://nirogilanka.com/en/heart-disease-risk-calculator/" },
+    { "code": "Lpa", "name": "Lipoprotein(a) [Lp(a)]", "normal": "<30 (<75 nmol/L)", "borderline": "30–50", "high": ">50 (>125 nmol/L)", "unit": "mg/dL", "calculator_url": "https://nirogilanka.com/en/heart-disease-risk-calculator/" },
+    { "code": "hsCRP", "name": "High-Sensitivity C-Reactive Protein", "normal": "<1.0 (Low CV Risk)", "borderline": "1.0–3.0 (Average Risk)", "high": ">3.0 (>10.0 Acute Inflammation)", "unit": "mg/L", "calculator_url": "https://nirogilanka.com/en/heart-disease-risk-calculator/" }
+  ]
+}
