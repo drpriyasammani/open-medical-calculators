@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open-Source Clinical Medical Calculators &amp; 2026 Lab Reference Ranges — Dr. Priya Sammani</title>
+  <meta name="description" content="Open-source embeddable BMI &amp; cardiometabolic calculator widget and 2026 adult clinical laboratory reference intervals curated by Dr. Priya Sammani (MBBS, PG Dip. in Family Medicine) at Nirogi Lanka." />
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 880px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; color: #0f172a; line-height: 1.65; background: #f8fafc; }
+    header { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 18px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 18px rgba(15,23,42,.04); }
+    h1 { font-size: 1.75rem; margin: 0 0 .6rem; color: #0f172a; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; color: #0f766e; }
+    a { color: #0f766e; font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { display: inline-block; background: #ccfbf1; color: #115e59; font-size: .78rem; font-weight: 700; padding: .25rem .7rem; border-radius: 999px; margin-right: .4rem; }
+    .card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: .75rem; background: #fff; }
+    th, td { text-align: left; padding: .75rem; border-bottom: 1px solid #e2e8f0; font-size: .92rem; }
+    th { background: #f1f5f9; font-weight: 700; }
+    pre { background: #0f172a; color: #e2e8f0; padding: 1rem; border-radius: 10px; overflow-x: auto; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <span class="badge">MIT Open Source</span>
+      <span class="badge">DOI: 10.5281/zenodo.24336278</span>
+      <span class="badge">ORCID: 0009-0009-5051-1275</span>
+    </div>
+    <h1 style="margin-top:.8rem;">Open-Source Clinical Medical Calculator Widget &amp; 2026 Reference Intervals</h1>
+    <p>Authored and clinically reviewed by <strong><a href="https://nirogilanka.com/about/">Dr. Priya Sammani (MBBS, PG Dip. in Family Medicine)</a></strong>, Chief Medical Editor at <a href="https://nirogilanka.com/en/">Nirogi Lanka Medical Encyclopedia</a>.</p>
+  </header>
+
+  <section class="card">
+    <h2 style="margin-top:0;">Live Interactive Widget Demo</h2>
+    <p>Zero-dependency vanilla JavaScript widget supporting WHO global and South Asian cardiometabolic BMI cutoffs:</p>
+    <div data-nirogi-calc="bmi" data-lang="en"></div>
+    <script src="./nirogi-calc-widget.js"></script>
+    <pre>&lt;div data-nirogi-calc="bmi" data-lang="en"&gt;&lt;/div&gt;
+&lt;script src="https://nirogilanka.com/embed/nirogi-calc-widget.js" async&gt;&lt;/script&gt;</pre>
+  </section>
+
+  <section class="card">
+    <h2 style="margin-top:0;">Evidence-Based Clinical Tools &amp; Multilingual Directories</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Clinical Tool / Dataset</th>
+          <th>Reference Standard &amp; Live Access</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>76 Clinical Health Calculators Hub</strong></td>
+          <td>Cardiology, Endocrinology, Nephrology, Hepatology &amp; OB/GYN calculators at <a href="https://nirogilanka.com/en/health-calculators/">nirogilanka.com/en/health-calculators/</a></td>
+        </tr>
+        <tr>
+          <td><strong>130-Language Symptom Triage Checker</strong></td>
+          <td>Anatomical differential triage &amp; red-flag screening at <a href="https://nirogilanka.com/en/symptom-checker/">nirogilanka.com/en/symptom-checker/</a></td>
+        </tr>
+        <tr>
+          <td><strong>HbA1c &amp; HOMA-IR Metabolic Screeners</strong></td>
+          <td>ADAG eAG glucose conversion (<a href="https://nirogilanka.com/en/hba1c-converter/">HbA1c Converter</a>) &amp; <a href="https://nirogilanka.com/en/insulin-resistance-calculator/">HOMA-IR Calculator</a></td>
+        </tr>
+        <tr>
+          <td><strong>FIB-4, CKD-EPI eGFR &amp; Sampson LDL-C</strong></td>
+          <td><a href="https://nirogilanka.com/en/fib-4-calculator/">FIB-4 Liver Fibrosis</a>, <a href="https://nirogilanka.com/en/egfr-calculator/">CKD-EPI 2021 eGFR</a> &amp; <a href="https://nirogilanka.com/en/ldl-cholesterol-calculator/">NIH Sampson LDL Cholesterol</a></td>
+        </tr>
+        <tr>
+          <td><strong>2026 Adult Lab Reference Ranges JSON</strong></td>
+          <td>Download <a href="./clinical-lab-reference-ranges-2026.json">clinical-lab-reference-ranges-2026.json</a> • Archived at <a href="https://doi.org/10.5281/zenodo.24336278">CERN Zenodo (10.5281/zenodo.24336278)</a> &amp; <a href="https://osf.io/wdh4c/">OSF.io (wdh4c)</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
