@@ -1,0 +1,44 @@
+{
+  "title": "Nirogi Lanka Open Multilingual Clinical Calculators & Standardized Adult Laboratory Reference Dataset (2026)",
+  "upload_type": "dataset",
+  "description": "Open-access, physician-reviewed dataset of 25 core adult hematology, metabolic, renal, thyroid, hepatic, and cardiovascular laboratory reference intervals (conventional and SI units) paired with validated clinical calculator equations (CKD-EPI 2021 race-free eGFR, ADAG HbA1c-to-eAG, Mifflin-St Jeor BMR, WHO/Asian BMI risk cutoffs) across 21 languages.",
+  "creators": [
+    {
+      "name": "Sammani, Priya",
+      "affiliation": "Nirogi Lanka Medical Review Board",
+      "orcid": "0009-0009-5051-1275"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "clinical calculators",
+    "laboratory reference ranges",
+    "eGFR CKD-EPI 2021",
+    "HbA1c converter",
+    "medical triage",
+    "multilingual patient education",
+    "Nirogi Lanka"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://nirogilanka.com/en/health-calculators/",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://nirogilanka.com/en/symptom-checker/",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://nirogilanka.com/datasets/clinical-lab-reference-ranges-2026.json",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.wikidata.org/wiki/Q142108990",
+      "relation": "isPartOf",
+      "resource_type": "other"
+    }
+  ]
+}

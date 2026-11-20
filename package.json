@@ -1,0 +1,41 @@
+{
+  "name": "nirogilanka-clinical-calculators",
+  "version": "2.0.0",
+  "description": "Zero-dependency clinical medical calculators (South Asian WHO BMI, FIB-4, CKD-EPI 2021 eGFR, NIH Sampson LDL-C, HOMA-IR, Corrected Calcium) and embeddable health widgets curated by Dr. Priya Sammani (MBBS) at Nirogi Lanka.",
+  "main": "dist/nirogilanka-clinical.min.js",
+  "module": "dist/nirogilanka-clinical.esm.js",
+  "jsdelivr": "dist/nirogilanka-clinical.min.js",
+  "unpkg": "dist/nirogilanka-clinical.min.js",
+  "homepage": "https://nirogilanka.com/en/health-calculators/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpriyasammani/open-medical-calculators.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drpriyasammani/open-medical-calculators/issues"
+  },
+  "author": {
+    "name": "Dr. Priya Sammani (MBBS, PG Dip. in Family Medicine)",
+    "email": "drpriya@radiology.lk",
+    "url": "https://nirogilanka.com/about/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "medical-calculators",
+    "clinical-calculators",
+    "bmi",
+    "south-asian-bmi",
+    "fib-4",
+    "egfr",
+    "ldl-cholesterol",
+    "homa-ir",
+    "health-widget",
+    "nirogi-lanka"
+  ],
+  "files": [
+    "dist",
+    "nirogi-calc-widget.js",
+    "clinical-lab-reference-ranges-2026.json",
+    "README.md"
+  ]
+}
